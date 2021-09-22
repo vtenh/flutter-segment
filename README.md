@@ -91,6 +91,7 @@ Remember that the application lifecycle events won't have any special context se
         <meta-data android:name="com.claimsforce.segment.WRITE_KEY" android:value="YOUR_WRITE_KEY_GOES_HERE" />
         <meta-data android:name="com.claimsforce.segment.TRACK_APPLICATION_LIFECYCLE_EVENTS" android:value="false" />
         <meta-data android:name="com.claimsforce.segment.ENABLE_AMPLITUDE_INTEGRATION" android:value="false" />
+        <meta-data android:name="com.claimsforce.segment.ENABLE_FIREBASE_INTEGRATION" android:value="false" />
         <meta-data android:name="com.claimsforce.segment.DEBUG" android:value="false" />
     </application>
 </manifest>
@@ -108,6 +109,8 @@ Remember that the application lifecycle events won't have any special context se
 	<key>com.claimsforce.segment.TRACK_APPLICATION_LIFECYCLE_EVENTS</key>
 	<false/>
 	<key>com.claimsforce.segment.ENABLE_AMPLITUDE_INTEGRATION</key>
+    <false/>
+	<key>com.claimsforce.segment.ENABLE_FIREBASE_INTEGRATION</key>
     <false/>
 	[...]
 </dict>
