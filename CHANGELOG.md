@@ -1,3 +1,12 @@
+## 3.2.1
+* fix null safety
+
+## 3.2.0
+* added installation via Dart Code
+
+## 3.1.3
+* iOS: fix incorrect `Segment-Amplitude` import
+
 ## 3.1.2
 * Android: allow nested properties for event properties (with Null Safety)
 
