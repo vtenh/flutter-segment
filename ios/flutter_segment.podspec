@@ -14,9 +14,11 @@ A new flutter plugin project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.public_header_files = 'Classes/**/*.h'
+  s.static_framework = true
   s.dependency 'Flutter'
   s.dependency 'Analytics', '4.1.6'
   s.dependency 'Segment-Amplitude', '3.2.4'
+  s.dependency 'Segment-Firebase', '2.7.7'
   s.ios.deployment_target = '8.0'
 
   # Added because Segment-Amplitude dependency on iOS cause this error:
