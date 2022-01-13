@@ -1,3 +1,13 @@
+## 3.5.0
+* iOS: we are forcing to use `use_frameworks!`
+
+## 3.4.1
+* iOS: re-add `s.static_framework = true` in `podspec`
+
+## 3.4.0
+* iOS: fix immediate crash on iOS
+* iOS: set min deployment target to `11.0` (previous it was `8.0`)
+
 ## 3.3.0
 * Android: upgrade Segment SDK to `4.10.0`
 * iOS: upgrade Segment SDK to `4.1.6`

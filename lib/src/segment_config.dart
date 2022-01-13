@@ -1,10 +1,4 @@
 class SegmentConfig {
-  final String writeKey;
-  final bool trackApplicationLifecycleEvents;
-  final bool amplitudeIntegrationEnabled;
-  final bool firebaseIntegrationEnabled;
-  final bool debug;
-
   SegmentConfig({
     required this.writeKey,
     this.trackApplicationLifecycleEvents = false,
@@ -12,6 +6,12 @@ class SegmentConfig {
     this.firebaseIntegrationEnabled = false,
     this.debug = false,
   });
+
+  final String writeKey;
+  final bool trackApplicationLifecycleEvents;
+  final bool amplitudeIntegrationEnabled;
+  final bool firebaseIntegrationEnabled;
+  final bool debug;
 
   Map<String, dynamic> toMap() {
     return {
